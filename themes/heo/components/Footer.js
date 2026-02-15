@@ -39,8 +39,7 @@ const Footer = () => {
               className='underline font-semibold dark:text-gray-300 '>
               {siteConfig('AUTHOR')}
             </a>
-            {BIO && <span className='mx-1'> | {BIO}</span>} |
-            <a href="https://beian.miit.gov.cn/">桂ICP备2021001631号-2</a>
+            {BIO && <span className='mx-1'> | {BIO}</span>}
           </div>
         </div>
 
