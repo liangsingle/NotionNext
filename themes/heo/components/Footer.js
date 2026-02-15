@@ -40,7 +40,7 @@ const Footer = () => {
               {siteConfig('AUTHOR')}
             </a>
             {BIO && <span className='mx-1'> | {BIO}</span>} |
-            <a herf="https://beian.miit.gov.cn/">桂ICP备2021001631号-2</a>
+            <a href="https://beian.miit.gov.cn/">桂ICP备2021001631号-2</a>
           </div>
         </div>
 
