@@ -1,5 +1,5 @@
 const CONFIG = {
-  HEO_HOME_POST_TWO_COLS: false, // 首页博客两列显示，若为false则只显示一列
+  HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
   HEO_LOADING_COVER: true, // 页面加载的遮罩动画
 
   HEO_HOME_BANNER_ENABLE: true,
@@ -18,19 +18,19 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '',
-  HEO_HERO_TITLE_2: '',
-  HEO_HERO_TITLE_3: '',
-  HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: '',
-  HEO_HERO_TITLE_LINK: '',
+  HEO_HERO_TITLE_1: '学而时习之',
+  HEO_HERO_TITLE_2: '不亦说乎',
+  HEO_HERO_TITLE_3: 'ERGUA.SITE',
+  HEO_HERO_TITLE_4: '泰语导航',
+  HEO_HERO_TITLE_5: '单词本',
+  HEO_HERO_TITLE_LINK: 'https://six-aftermath-1bf.notion.site/2bf37bec1db980ea82d9e0c97be5b7c7?pvs=74',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '语言', url: '/tag/语言' },
+  HEO_HERO_CATEGORY_2: { title: '笔记', url: '/tag/笔记' },
+  HEO_HERO_CATEGORY_3: { title: '小橘子', url: '/tag/小橘子' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -61,7 +61,8 @@ const CONFIG = {
       // img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
       title_1: 'Notion',
       img_1: '/images/heo/webp/notion.webp',
-      color_1: '#989bf8',
+      // color_1: '#989bf8',
+      color_1: '#ffffff',
       // title_2: 'Sketch',
       title_2: 'Vocat',
       // img_2: '/images/heo/x023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
@@ -138,7 +139,8 @@ const CONFIG = {
       title_2: '沪江开心词场',
       // img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
       img_2: '/images/heo/webp/hujiangkaixincichang.webp',
-      color_2: '#1f1f1f'
+      // color_2: '#1f1f1f'
+      color_2: '#ffffff'
     }
   ],
 
